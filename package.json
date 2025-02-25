@@ -1,0 +1,19 @@
+{
+  "name": "learning-react",
+  "version": "1.0.0",
+  "description": "This is learning react",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "MD Fazal",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fazal2307-dev/Learning-React.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Fazal2307-dev/Learning-React/issues"
+  },
+  "homepage": "https://github.com/Fazal2307-dev/Learning-React#readme"
+}
