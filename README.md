@@ -13,3 +13,10 @@ BrowserRouter` - Uses HTML5 history API for clean URLs
 - `NavLink` - Enhanced Link with active state styling
 - `Navigate` - Component for declarative navigation redirects
 - `Outlet` - Placeholder where child routes render in nested routes
+Hooks
+- `useParams` - Access URL parameters
+- `useNavigate` - Programmatic navigation
+- `useLocation` - Access current location object
+- `useRoutes` - Define routes programmatically using objects
+- `useSearchParams` - Access and modify URL query parameters
+- `useMatch` - Programmatically match a route
