@@ -20,3 +20,9 @@ Hooks
 - `useRoutes` - Define routes programmatically using objects
 - `useSearchParams` - Access and modify URL query parameters
 - `useMatch` - Programmatically match a route
+
+### Additional Components
+- `MemoryRouter` - Keeps history in memory (useful for testing)
+- `StaticRouter` - For server-side rendering
+- `Prompt` - Creates navigation confirmation dialogs
+- `Await` - For handling deferred data loading with suspense
