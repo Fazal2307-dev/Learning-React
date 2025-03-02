@@ -26,3 +26,21 @@ Hooks
 - `StaticRouter` - For server-side rendering
 - `Prompt` - Creates navigation confirmation dialogs
 - `Await` - For handling deferred data loading with suspense
+
+### Features
+- Nested routes
+- Index routes
+- Dynamic routes with parameters
+- Route loaders and actions (v6.4+)
+- Relative links
+- Search parameters handling
+- Error boundaries for routes
+- Lazy loading routes
+
+### Router Configuration
+- Path matching patterns
+- Relative and absolute paths
+- Index routes
+- Path wildcards
+- Optional segments
+
