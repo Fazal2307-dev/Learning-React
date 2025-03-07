@@ -176,3 +176,17 @@ Mobile Games:
 
 Wrap web games into mobile apps using React Native or Ionic.
 
+4. Mobile Apps
+Build cross-platform apps with JavaScript:
+
+React Native:
+
+iOS/Android apps (e.g., Instagram, Airbnb).
+
+Ionic:
+
+Hybrid apps using web tech (HTML/CSS/JS).
+
+NativeScript:
+
+Truly native apps with JavaScript.
