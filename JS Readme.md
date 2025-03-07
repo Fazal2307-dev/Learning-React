@@ -205,3 +205,11 @@ Lightweight alternative to Electron.
 Proton Native:
 
 React-like syntax for native desktop apps.
+6. Machine Learning & AI
+TensorFlow.js:
+
+Train and deploy ML models in the browser (e.g., image recognition).
+
+Brain.js:
+
+Simple neural networks for predictions.
