@@ -153,4 +153,26 @@ JWT, OAuth, Passport.js.
 Database-Driven Apps:
 
 MongoDB (NoSQL), PostgreSQL (SQL), or Firebase.
+3. Game Development
+JavaScript powers browser-based and mobile games:
+
+2D Games:
+
+Frameworks: Phaser.js, Pixi.js.
+
+Examples: Platformers, puzzle games, retro-style games.
+
+3D Games:
+
+Libraries: Three.js, Babylon.js, A-Frame (for VR).
+
+Examples: Simple 3D worlds, VR experiences.
+
+Browser Games:
+
+HTML5 Canvas or WebGL for rendering.
+
+Mobile Games:
+
+Wrap web games into mobile apps using React Native or Ionic.
 
