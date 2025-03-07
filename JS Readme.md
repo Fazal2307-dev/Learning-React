@@ -213,3 +213,42 @@ Train and deploy ML models in the browser (e.g., image recognition).
 Brain.js:
 
 Simple neural networks for predictions.
+7. Automation & Scripting
+Task Automation:
+
+Use Node.js to automate file operations, web scraping (e.g., Puppeteer).
+
+CLI Tools:
+
+Build command-line utilities (e.g., npm packages).
+
+8. IoT (Internet of Things)
+Raspberry Pi/Arduino:
+
+Control hardware using Node.js (e.g., sensors, robots).
+
+9. Blockchain & Web3
+Smart Contracts:
+
+Use libraries like Web3.js or Ethers.js for Ethereum DApps.
+
+NFT Marketplaces:
+
+Build decentralized apps (DApps) with Solidity and React.
+
+10. Tools & Utilities
+Code Editors:
+
+VS Code extensions (built with JS/TypeScript).
+
+Dev Tools:
+
+Linters (ESLint), bundlers (Webpack), and testing frameworks (Jest, Cypress).
+
+Example Projects to Try
+Category	Project Ideas
+Frontend	Todo app, weather app, e-commerce store, portfolio site.
+Backend	Blog API, real-time chat app, URL shortener.
+Games	2D platformer, memory card game, 3D maze.
+Mobile	Fitness tracker, note-taking app, recipe manager.
+Desktop	Markdown editor, password manager, music player.
