@@ -127,4 +127,30 @@ Use static site generators like Gatsby or Next.js.
 Web Games:
 
 Simple browser games (e.g., puzzles, quizzes).
+2. Backend Development (Node.js)
+JavaScript isn’t limited to the browser. With Node.js, you can build:
+
+RESTful APIs:
+
+Tools: Express.js, NestJS, Fastify.
+
+Real-Time Apps:
+
+Chat apps, live notifications (e.g., using Socket.io).
+
+Serverless Functions:
+
+AWS Lambda, Firebase Cloud Functions.
+
+Microservices:
+
+Scalable backend architectures.
+
+Authentication Systems:
+
+JWT, OAuth, Passport.js.
+
+Database-Driven Apps:
+
+MongoDB (NoSQL), PostgreSQL (SQL), or Firebase.
 
