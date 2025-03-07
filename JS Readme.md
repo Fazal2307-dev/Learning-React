@@ -190,3 +190,18 @@ Hybrid apps using web tech (HTML/CSS/JS).
 NativeScript:
 
 Truly native apps with JavaScript.
+
+5. Desktop Apps
+Create cross-platform desktop applications:
+
+Electron:
+
+Apps like VS Code, Slack, Discord.
+
+Tauri:
+
+Lightweight alternative to Electron.
+
+Proton Native:
+
+React-like syntax for native desktop apps.
