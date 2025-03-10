@@ -297,3 +297,20 @@ Accessible, modular, and themeable components with a focus on simplicity.
 Headless UI
 Headless UI
 Unstyled, accessible components for building fully customizable UIs (by Tailwind CSS).
+
+2. State Management
+Redux Toolkit
+Redux Toolkit
+Official Redux package for simplified state management (replaces legacy Redux).
+
+Recoil
+Recoil
+Experimental state management library by Facebook for React’s concurrent mode.
+
+Zustand
+Zustand
+Minimalist state management with a hooks-based API.
+
+Context API
+Built-in React solution for prop drilling avoidance (ideal for small apps).
+
