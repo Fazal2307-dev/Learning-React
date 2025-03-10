@@ -326,3 +326,42 @@ Popular form management library with validation support.
 Yup
 Yup
 Schema validation often paired with Formik or React Hook Form.
+
+4. Routing
+React Router
+React Router
+Standard declarative routing library for React SPAs.
+
+Next.js Router
+Next.js
+Framework with file-based routing (SSR/SSG support).
+
+5. Styling
+Styled Components
+Styled Components
+CSS-in-JS with dynamic styling via tagged template literals.
+
+Tailwind CSS
+Tailwind CSS
+Utility-first CSS framework for rapid UI development.
+
+Emotion
+Emotion
+Performant CSS-in-JS library with composable styles.
+
+Sass/SCSS
+Sass
+CSS preprocessor for nested styles, variables, and mixins.
+
+6. Data Fetching
+Axios
+Axios
+Promise-based HTTP client for API calls.
+
+React Query
+React Query
+Powerful data synchronization, caching, and server-state management.
+
+SWR
+SWR
+Lightweight data fetching with caching and revalidation (by Vercel).
