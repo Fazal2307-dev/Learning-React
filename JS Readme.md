@@ -314,3 +314,15 @@ Minimalist state management with a hooks-based API.
 Context API
 Built-in React solution for prop drilling avoidance (ideal for small apps).
 
+3. Forms
+React Hook Form
+React Hook Form
+Lightweight, performant form validation with minimal re-renders.
+
+Formik
+Formik
+Popular form management library with validation support.
+
+Yup
+Yup
+Schema validation often paired with Formik or React Hook Form.
