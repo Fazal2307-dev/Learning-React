@@ -365,3 +365,38 @@ Powerful data synchronization, caching, and server-state management.
 SWR
 SWR
 Lightweight data fetching with caching and revalidation (by Vercel).
+
+7. Animation
+Framer Motion
+Framer Motion
+Declarative animations and gesture support (e.g., drag, hover).
+
+React Spring
+React Spring
+Physics-based animations for smooth transitions.
+
+8. Charts & Data Visualization
+Recharts
+Recharts
+Declarative charting library built with React and D3.
+
+Victory
+Victory
+Flexible charting library for React and React Native.
+
+D3.js
+D3
+Low-level visualization library (requires React integration).
+
+9. Testing
+Jest
+Jest
+Testing framework for unit and snapshot testing.
+
+React Testing Library
+React Testing Library
+DOM testing utilities for React components.
+
+Cypress
+Cypress
+End-to-end (E2E) testing for browser-based apps.
