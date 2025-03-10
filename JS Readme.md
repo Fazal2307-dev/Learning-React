@@ -400,3 +400,72 @@ DOM testing utilities for React components.
 Cypress
 Cypress
 End-to-end (E2E) testing for browser-based apps.
+
+10. Utilities
+Lodash
+Lodash
+Utility functions for data manipulation (e.g., debounce, throttle).
+
+date-fns
+date-fns
+Modern date utility library.
+
+clsx
+clsx
+Tiny utility for conditionally joining class names.
+
+11. Internationalization (i18n)
+i18next
+i18next
+Popular internationalization framework with React integration.
+
+React Intl
+React Intl
+Format dates, numbers, and strings for multiple locales.
+
+12. Drag & Drop
+react-beautiful-dnd
+react-beautiful-dnd
+Beautiful and accessible drag-and-drop for lists.
+
+Dnd Kit
+Dnd Kit
+Modern, lightweight drag-and-drop toolkit.
+
+13. Component Libraries for Specific Use Cases
+React Table
+React Table
+Headless UI for building powerful tables.
+
+React Select
+React Select
+Flexible and customizable dropdown/select component.
+
+14. Static Site Generation (SSG) & Server-Side Rendering (SSR)
+Next.js
+Next.js
+Full-stack framework with SSR/SSG, API routes, and more.
+
+Gatsby
+Gatsby
+Static site generator optimized for speed and SEO.
+
+Honorable Mentions
+Storybook
+Storybook
+Tool for building and testing UI components in isolation.
+
+React Icons
+React Icons
+Icon library with 10,000+ icons from popular icon sets.
+
+Choosing the Right Library
+For simplicity: Start with Chakra UI or Material-UI.
+
+For forms: React Hook Form + Zod (validation).
+
+For state management: Redux Toolkit (complex apps) or Zustand (simpler cases).
+
+For animations: Framer Motion.
+
+For data fetching: React Query or SWR.
