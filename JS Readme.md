@@ -469,3 +469,6 @@ For state management: Redux Toolkit (complex apps) or Zustand (simpler cases).
 For animations: Framer Motion.
 
 For data fetching: React Query or SWR.
+React components
+-functional components-new way of writing
+-class based -old way of writing
