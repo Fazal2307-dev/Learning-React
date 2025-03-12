@@ -486,3 +486,17 @@ Use hooks like useState, useEffect, useContext, etc., for state and lifecycle.
 No need for this binding (simpler event handling).
 
 Better performance (slightly lighter weight than class components).
+2. Class Components
+Definition: ES6 classes extending React.Component or React.PureComponent.
+
+State and Lifecycle: Built-in support for state and lifecycle methods.
+
+Syntax: More verbose (requires this, bind, and lifecycle methods).
+
+Use Cases: Legacy codebases or specific use cases (e.g., error boundaries).
+Key Features:
+Use this.state and this.setState() for state management.
+
+Lifecycle methods like componentDidMount, componentDidUpdate, and componentWillUnmount.
+
+Requires manual this binding for event handlers (unless using arrow functions).
