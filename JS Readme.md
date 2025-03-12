@@ -472,3 +472,17 @@ For data fetching: React Query or SWR.
 React components
 -functional components-new way of writing
 -class based -old way of writing
+1. Functional Components
+Definition: JavaScript functions that return JSX (React elements).
+
+State and Lifecycle: Initially called "stateless" components, but with React Hooks (introduced in React 16.8), they can now manage state and lifecycle features.
+
+Syntax: Simpler and more concise (no this keyword).
+
+Use Cases: Preferred in modern React development due to hooks and simplicity.
+Key Features:
+Use hooks like useState, useEffect, useContext, etc., for state and lifecycle.
+
+No need for this binding (simpler event handling).
+
+Better performance (slightly lighter weight than class components).
