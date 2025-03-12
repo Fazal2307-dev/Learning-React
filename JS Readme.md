@@ -500,3 +500,12 @@ Use this.state and this.setState() for state management.
 Lifecycle methods like componentDidMount, componentDidUpdate, and componentWillUnmount.
 
 Requires manual this binding for event handlers (unless using arrow functions).
+    Key Differences
+Feature	Functional Component	Class Component
+Syntax	Function with JSX	Class extending React.Component
+State Management	useState hook	this.state and this.setState
+Lifecycle Methods	useEffect hook	componentDidMount, componentDidUpdate, etc.
+this Keyword	Not needed	Required (e.g., this.props)
+Readability	Less boilerplate	More boilerplate (e.g., render())
+Performance	Slightly better (no class overhead)	Slightly heavier
+Modern Usage	Preferred (with hooks)	Legacy codebases
