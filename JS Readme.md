@@ -509,3 +509,31 @@ this Keyword	Not needed	Required (e.g., this.props)
 Readability	Less boilerplate	More boilerplate (e.g., render())
 Performance	Slightly better (no class overhead)	Slightly heavier
 Modern Usage	Preferred (with hooks)	Legacy codebases
+
+
+When to Use Which?
+Functional Components:
+
+New projects (React recommends using hooks).
+
+Simpler logic and reusable UI elements.
+
+Full state/lifecycle support via hooks.
+
+Class Components:
+
+Legacy code maintenance.
+
+Error boundaries (until hooks support them).
+
+Rare edge cases requiring lifecycle methods not covered by hooks.
+
+Why Functional Components Are Preferred Today
+Hooks: Eliminate the need for classes by enabling state and lifecycle in functional components.
+
+Simpler Code: No this binding or complex lifecycle method hierarchies.
+
+Reusability: Custom hooks promote logic sharing between components.
+
+Migration Trend
+React encourages functional components with hooks for new development. However, understanding class components is still valuable for maintaining older codebases.
