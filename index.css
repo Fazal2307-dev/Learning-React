@@ -1,22 +1,16 @@
-body {
-    background-color: #d4d1d1;
-    display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      width: 100%;
-  }
-  
-  #parent {
-    width: fit-content;
-    border: 1px solid red;
-    padding: 0px 20px;
-  }
-  
-  h1 {
-    color: purple;
-    font-size: 2rem;
-  }
-#new{
-color:blue;
+.header{
+  display:flex;
+  justify-content: space-between;
+  margin:10px;
+  border: 2px solid black;
+}
+.nav-items>ul{
+  list-style-type:none;
+  display: flex;
+}
+.nav-items>ul>li{
+  padding:10px;
+}
+.logo{
+  width:100px;
 }

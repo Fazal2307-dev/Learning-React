@@ -1,57 +1,88 @@
-/*
-# Parcel
-- Dev Build
-- Local Server
-- HMR = Hot Module Replacement
-- File Watching Algorithm - written in C++
-- Caching - Faster Builds
-- Image Optimization
-- Minification
-- Bundling
-- Compress
-- Consistent Hashing
-- Code Splitting
-- Differential Bundling - support older browsers
-- Diagnostic
-- Error Handling
-- HTTPs
-- Tree Shaking - remove unused code
-- Different dev and prod bundles
-*/
-
-
 
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const child1 = React.createElement("div", { id: "child1",
-  key:"h1"
+ /**
+     * Header
+     * -Logo
+     * -Nav items
+     * -Cart
+     * Body
+     *  -SearchBar
+     *  -RestaurntList
+     *      -RestaurntCard
+     *           -Image
+     *           -Name
+     *           -Rating
+     *           -cusines
+     * Footer
+     * -Links
+     * -Copywrites
+     */
 
- }, [
-  React.createElement("h1", {}, "This is Namaste React 🚀"),
-  React.createElement("h2", {}, "by Akshay Saini"),
-]);
-
-const child2 = React.createElement("div", { id: "child2",
-  key:"h2"
- }, [
-  React.createElement("h1", {}, "I am an h1 tag"),
-  React.createElement("h2", {}, "I am an h2 tag"),
-]);
-
-const parent = React.createElement(
-  "div",
-  {
-    id: "parent",
-  
-  },
-  [child1, child2]
+const Title = () => (
+    <a href="/">
+<img  className="logo"
+alt="logo" 
+src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS51Fg8ECaMCb6T2yAd4CgUjy_hu7Zk1OKEZw&s">
+</img>
+</a>
 );
 
-// console.log(parent);  // object
+const HeaderComponent = () =>{
+    return ( 
+        <div className="header">
+           <Title />
+           <div className="nav-items">
+                <ul>
+                    <li>Home</li>
+                    <li>Contact</li>
+                    <li>About</li>
+                    <li>Cart</li>
+                    
+                </ul>
 
-// create root using createRoot
+            
+            
+            </div>        
+      
+        </div>
+    
+)};
+const Body =() =>{
+    return (
+        <div>
+            <h3>
+                Body
+            </h3>
+        </div>
+
+    )
+}
+const Footer =() =>{
+    return (
+        <div>
+            <h3>
+               Footer
+            </h3>
+        </div>
+
+    )
+}
+const AppLayout = () =>{
+return(
+<div>
+    <HeaderComponent />
+    <Body />
+    <Footer />
+
+</div>
+   
+)
+}
+
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 // passing react element inside root
-root.render(parent);
+root.render(<AppLayout />);
