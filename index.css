@@ -13,13 +13,18 @@
 }
 .logo{
   width:100px;
+  padding-left: 5px;;
 }
 
 .body{
+  height:500px;
   border:2px solid black;
   margin:10px;
+  padding-left:4px;
+
 }
 .footer{
+  height:300px;
   border:2px solid black;
   margin :10px;
 }
