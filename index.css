@@ -39,3 +39,14 @@ margin:5px;
   flex-wrap:wrap;
  
 }
+.search-box {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #c9c8c8;
+  padding: 0px 10px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
