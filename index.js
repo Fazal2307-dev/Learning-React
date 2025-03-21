@@ -416,7 +416,7 @@ const restaurentList = [
 const RestaurntCard = () =>{
     return(
         <div className="card">
-            <img  alt ="Res Card" src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/7/10/91a05f97-bf44-481c-8093-94a014820c29_6c117b04-2120-4abe-afac-900deb1edbea.jpg"+
+            <img  alt ="Res Card" src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"+
                 restaurentList[0].info?.cloudinaryImageId}></img>
             <h2>{restaurentList[0].info?.name}</h2>
             <h3>{restaurentList[0].info?.cuisines.join(" , ")}</h3>
@@ -438,13 +438,7 @@ const Body =() =>{
             <RestaurntCard />
             <RestaurntCard />
             <RestaurntCard />
-            <RestaurntCard />
-            <RestaurntCard />
-            <RestaurntCard />
-            <RestaurntCard />
-            <RestaurntCard />
-            <RestaurntCard />
-            <RestaurntCard />
+
         </div>
 
     )
