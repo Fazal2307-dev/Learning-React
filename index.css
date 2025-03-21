@@ -87,3 +87,19 @@ margin:5px;
 .restaurant-card:hover {
   transform: scale(0.99);
 }
+.search {
+  padding: 10px;
+}
+
+.restaurant-logo {
+  width: 100%;
+  height: 65%;
+  margin: 0px;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.restaurant-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 5px 0px;
+}
