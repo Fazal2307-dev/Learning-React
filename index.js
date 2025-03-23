@@ -419,6 +419,7 @@ const RestaurntCard = ({cloudinaryImageId,name,cuisines,avgRating,costForTwo }) 
         </div>
     )
 }
+// no key(never use) <<<<<<<<<<  index key(last option) << unique key
 const Body =() =>{
     return (
         <div className="body">
