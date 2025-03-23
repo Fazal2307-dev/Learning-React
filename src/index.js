@@ -1,7 +1,7 @@
 
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Title from "./components/Title";
+import Header from "./components/Header";
 
  /**
      * Header
@@ -23,21 +23,6 @@ import Title from "./components/Title";
 
 
 
-const HeaderComponent = () =>{
-    return ( 
-        <div className="header">
-           <Title />
-           <div className="nav-items">
-                <ul>
-                    <li>Home</li>
-                    <li>Contact</li>
-                    <li>About</li>
-                    <li>Cart</li>
-                    
-                </ul>
-            </div>        
-        </div>
-)};
 
 const restrautList = [
     
@@ -439,7 +424,7 @@ const Footer =() =>{
 const AppLayout = () =>{
 return(
 <div>
-    <HeaderComponent />
+    <Header />
     <Body />
     <Footer />
 
