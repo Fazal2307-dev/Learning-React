@@ -416,8 +416,6 @@ const RestaurntCard = ({cloudinaryImageId,name,cuisines,avgRating,costForTwo }) 
             <h3>{cuisines.join(" , ")}</h3>
             <h4>{avgRating}</h4>
             <h4>{costForTwo}</h4>
-            
-
         </div>
     )
 }
@@ -426,7 +424,7 @@ const Body =() =>{
         <div className="body">
           {
             restrautList.map((restaurant)=>{
-              return <RestaurntCard {...restaurant.info} />
+              return <RestaurntCard {...restaurant.info} key={restaurant.info.id}/>
             })
           }
         </div>
@@ -454,9 +452,6 @@ return(
    
 )
 }
-
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
-
 // passing react element inside root
 root.render(<AppLayout />);
