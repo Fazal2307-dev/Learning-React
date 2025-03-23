@@ -6,7 +6,7 @@ src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS51Fg8ECaMCb6T2yAd4Cg
 </img>
 </a>
 );
-export const Header = () =>{
+ const Header = () =>{
     return ( 
         <div className="header">
            <Title />
@@ -23,4 +23,4 @@ export const Header = () =>{
 )};
 
 
-// export default Header;
+export default Header;
