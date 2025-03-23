@@ -405,13 +405,7 @@ const restrautList = [
           },
         },
       
-]
-// const burgerKing ={
-//     name:"Burger King",
-//     image:"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/FOOD_CATALOG/IMAGES/CMS/2024/4/22/0438b481-ff18-48f2-b8c5-56297101c40f_8eab0d79-e411-4ff6-9b85-4b02aa637cd9.jpg",
-//     cusines:["Burger,American"],
-//     rating:"4.2", 
-// }
+      ]
 
 const RestaurntCard = ({cloudinaryImageId,name,cuisines,avgRating,costForTwo }) =>{
     return(
@@ -430,16 +424,11 @@ const RestaurntCard = ({cloudinaryImageId,name,cuisines,avgRating,costForTwo }) 
 const Body =() =>{
     return (
         <div className="body">
-            <RestaurntCard  {...restrautList[0].info} />
-            <RestaurntCard  {...restrautList[1].info}  />
-            <RestaurntCard  {...restrautList[2].info} />
-            <RestaurntCard  {...restrautList[3].info}  />
-            <RestaurntCard  {...restrautList[4].info}  />
-            <RestaurntCard  {...restrautList[5].info}  />
-            <RestaurntCard  {...restrautList[6].info}  />
-            
-            
-
+          {
+            restrautList.map((restaurant)=>{
+              return <RestaurntCard {...restaurant.info} />
+            })
+          }
         </div>
 
     )
