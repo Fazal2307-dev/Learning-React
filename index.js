@@ -413,15 +413,16 @@ const restrautList = [
 //     rating:"4.2", 
 // }
 
-const RestaurntCard = (props) =>{
+const RestaurntCard = ({restaurant}) =>{
+  const {cloudinaryImageId,name,cuisines,avgRating,costForTwo}= restaurant.info
     return(
         <div className="card">
             <img  alt ="Res Card" src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"+
-                props.restaurant.info?.cloudinaryImageId}></img>
-            <h2>{props.restaurant.info?.name}</h2>
-            <h3>{props.restaurant.info?.cuisines.join(" , ")}</h3>
-            <h4>{props.restaurant.info?.avgRating}</h4>
-            <h4>{props.restaurant.info?.costForTwo}</h4>
+                cloudinaryImageId}></img>
+            <h2>{name}</h2>
+            <h3>{cuisines.join(" , ")}</h3>
+            <h4>{avgRating}</h4>
+            <h4>{costForTwo}</h4>
             
 
         </div>
@@ -435,7 +436,7 @@ const Body =() =>{
             <RestaurntCard  restaurant={restrautList[2]}/>
             <RestaurntCard  restaurant={restrautList[3]} />
             <RestaurntCard  restaurant={restrautList[4]} />
-            <RestaurntCard  restaurant={restrautList[5]} />
+            {/* <RestaurntCard  restaurant={restrautList[5]} />
             <RestaurntCard  restaurant={restrautList[6]} />
             <RestaurntCard  restaurant={restrautList[7]} />
             <RestaurntCard  restaurant={restrautList[8]} />
@@ -447,7 +448,7 @@ const Body =() =>{
             <RestaurntCard  restaurant={restrautList[14]} />
             <RestaurntCard  restaurant={restrautList[15]} />
             <RestaurntCard  restaurant={restrautList[16]} />
-            <RestaurntCard  restaurant={restrautList[17]} />
+            <RestaurntCard  restaurant={restrautList[17]} /> */}
             
 
         </div>
