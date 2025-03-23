@@ -2,9 +2,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 //default import
-import Header from "./components/Header";
+// import Header from "./components/Header";
 // named  import
-import {Title} from "./components/Header";
+import {Title,Header} from "./components/Header";
 
  /**
      * Header
@@ -427,6 +427,7 @@ const Footer =() =>{
 const AppLayout = () =>{
 return(
 <div>
+    <Title />
     <Header />
     <Body />
     <Footer />
