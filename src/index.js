@@ -6,6 +6,7 @@ import ReactDOM from "react-dom/client";
 // named  import
 import  Header from "./components/Header";
 import Body from "./components/Body";
+import Footer from "./components/Footer";
 
  /**
      * Header
@@ -29,16 +30,7 @@ import Body from "./components/Body";
 
 
 
-const Footer =() =>{
-    return (
-        <div className="footer">
-            <h3>
-               Footer
-            </h3>
-        </div>
 
-    )
-}
 const AppLayout = () =>{
 return(
 <div>
