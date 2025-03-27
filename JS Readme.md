@@ -537,3 +537,21 @@ Reusability: Custom hooks promote logic sharing between components.
 
 Migration Trend
 React encourages functional components with hooks for new development. However, understanding class components is still valuable for maintaining older codebases.
+
+I'll create an artifact that explains the key algorithms and optimization techniques used in React.js.
+
+# Algorithms and Optimization Techniques in React.js
+
+## 1. Reconciliation Algorithm (Diffing Algorithm)
+The core algorithm that makes React's rendering efficient is the reconciliation algorithm, often referred to as the "diffing" algorithm. This algorithm is responsible for:
+- Comparing the new virtual DOM with the previous virtual DOM
+- Minimizing the number of DOM manipulations
+- Efficiently updating only the parts of the UI that have actually changed
+
+### Key Characteristics:
+- Uses a tree comparison strategy with O(n) time complexity
+- Compares elements of the same type across different renders
+- Uses key prop to optimize list rendering
+- Implements a heuristic O(n) algorithm that makes some assumptions to speed up the reconciliation process
+
+
