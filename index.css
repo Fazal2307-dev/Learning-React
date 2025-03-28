@@ -140,3 +140,7 @@ margin:5px;
   font-size: 16px;
   padding-bottom: 5px;
 }
+.car>img{
+  transition: transform 0.3s ease;
+  transform-style: preserve-3d;
+}

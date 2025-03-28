@@ -538,6 +538,7 @@ Reusability: Custom hooks promote logic sharing between components.
 Migration Trend
 React encourages functional components with hooks for new development. However, understanding class components is still valuable for maintaining older codebases.
 
+<<<<<<< HEAD
 Algorithms and Optimization Techniques in React.js
 1. Reconciliation Algorithm (Diffing Algorithm)
 The core algorithm that makes React's rendering efficient is the reconciliation algorithm, often referred to as the "diffing" algorithm. This algorithm is responsible for:
