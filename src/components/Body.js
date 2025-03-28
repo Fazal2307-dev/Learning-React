@@ -19,6 +19,7 @@ return(
 // no key(never use) <<<<<<<<<<  index key(last option) << unique key
 const Body =() =>{
   const [searchInput,setSearchInput] = useState();
+  const [searchContant,setSearchContant] = useState("false");
 return (
   <>
   <div className="search-container">
@@ -26,11 +27,14 @@ return (
      placeholder="Search"
       value={searchInput}
       onChange = {(e)=>{
-        setSearchInput = (e.target.value);
+        setSearchInput (e.target.value);
       }}
       >
   </input>
-    <button className="btn">Search</button>
+  <h1>{searchContant}</h1>
+    <button className="btn" onClick={()=>{
+      setSearchContant("true");
+    }}>Search</button>
   </div>
     <div className="body">
       {
