@@ -16,10 +16,15 @@ return(
     </div>
     </>
 )}
+function filterData(searchInput,restraunList){
+  const filterData = restraunList.filter((restraunt)=>restraunt.info.name.includes(searchInput));
+return filterData;
+}
 // no key(never use) <<<<<<<<<<  index key(last option) << unique key
 const Body =() =>{
-  const [searchInput,setSearchInput] = useState();
-  const [searchContant,setSearchContant] = useState("false");
+  const [restrauntList,setRestrauntList]=useState(restrautList)
+  const [searchInput,setSearchInput] = useState("");
+ 
 return (
   <>
   <div className="search-container">
@@ -31,14 +36,17 @@ return (
       }}
       >
   </input>
-  <h1>{searchContant}</h1>
-    <button className="btn" onClick={()=>{
-      setSearchContant("true");
+ 
+    <button className="btn" 
+      onClick={()=>{
+     const data= filterData(searchInput,restrauntList);
+     setRestrauntList(data);
+
     }}>Search</button>
   </div>
     <div className="body">
       {
-        restrautList.map((restaurant)=>{
+       restrauntList.map((restaurant)=>{
           return <RestaurntCard {...restaurant.info} key={restaurant.info.id}/>
         })
       }
