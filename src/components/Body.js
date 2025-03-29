@@ -22,7 +22,7 @@ return filterData;
 }
 // no key(never use) <<<<<<<<<<  index key(last option) << unique key
 const Body =() =>{
-  const [restrauntList,setRestrauntList]=useState(restrautList)
+  const [restrauntList,setRestrauntList]  = useState(restrautList)
   const [searchInput,setSearchInput] = useState("");
  
 return (
